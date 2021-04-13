@@ -53,7 +53,7 @@ const SEO = ({
   const seo = {
     title: `${title}` || settings.titleAlt,
     description: desc || settings.description,
-    image: `${banner || settings.banner.asset.fluid.src}`,
+    image: `${banner || settings.banner.asset.url}`,
     url: `${settings.url}${pathname || ''}`
   }
 

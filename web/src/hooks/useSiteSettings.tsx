@@ -15,7 +15,7 @@ type Props = {
         backgroundColor: string
         banner: {
           asset: {
-            fluid: ImageShape
+            url: string
           }
         }
         description: string
@@ -47,15 +47,7 @@ const useSiteSettings = () => {
             backgroundColor
             banner {
               asset {
-                fluid {
-                  srcWebp
-                  srcSetWebp
-                  srcSet
-                  src
-                  sizes
-                  base64
-                  aspectRatio
-                }
+                url
               }
             }
             description

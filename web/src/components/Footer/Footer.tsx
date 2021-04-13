@@ -9,12 +9,7 @@ import { Link } from 'gatsby'
 // Theme + UI
 import * as S from './styles.scss'
 import theme from '../../gatsby-plugin-theme-ui'
-import { Box, Flex, Heading, Text } from '../ui'
-
-// Components
-import Button from '../ui/Button'
-import Icon from '../Icons'
-import Symbol from '../Symbol'
+import { Box, Flex } from 'theme-ui'
 
 // ___________________________________________________________________
 
@@ -28,19 +23,19 @@ const Footer: React.FC = () => {
 
         <Flex>
           <Box mr={4}>
-            &copy;{getYear()} —{' '}
+            &copy;{getYear()} &bull;{' '}
             <Link
               to="/"
               className="logo-symbol"
               aria-label="HNSF, back to home"
             >
-              dWeb
+              natural mystic
             </Link>
           </Box>
         </Flex>
 
         <Box as="nav">
-          <a href="mailto:info@decentralizedinter.net?subject=Contact from dWeb—F">
+          <a href="mailto:fran@naturalmysticmassage.com">
             contact
           </a>
         </Box>

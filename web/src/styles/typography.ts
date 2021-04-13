@@ -36,36 +36,6 @@ import AeonikBlackWoff2 from './fonts/AeonikBlack.woff2'
 import AeonikBlackWoff from './fonts/AeonikBlack.woff'
 import AeonikBlackOtf from './fonts/AeonikBlack.otf'
 
-// Suisse Works Book
-import SuisseWorksBookEot from './fonts/SuisseWorks-Book.eot'
-import SuisseWorksBookWoff2 from './fonts/SuisseWorks-Book.woff2'
-import SuisseWorksBookWoff from './fonts/SuisseWorks-Book.woff'
-import SuisseWorksBookTtf from './fonts/SuisseWorks-Book.ttf'
-
-// Suisse Works Bold
-import SuisseWorksBoldEot from './fonts/SuisseWorks-Bold.eot'
-import SuisseWorksBoldWoff2 from './fonts/SuisseWorks-Bold.woff2'
-import SuisseWorksBoldWoff from './fonts/SuisseWorks-Bold.woff'
-import SuisseWorksBoldTtf from './fonts/SuisseWorks-Bold.ttf'
-
-// Suisse Mono Regular
-import SuisseIntlMonoRegularEot from './fonts/SuisseIntlMono-Regular.eot'
-import SuisseIntlMonoRegularWoff2 from './fonts/SuisseIntlMono-Regular.woff2'
-import SuisseIntlMonoRegularWoff from './fonts/SuisseIntlMono-Regular.woff'
-import SuisseIntlMonoRegularOtf from './fonts/SuisseIntlMono-Regular.otf'
-
-// Suisse Mono Thin
-import SuisseIntlMonoThinEot from './fonts/SuisseIntlMono-Thin.eot'
-import SuisseIntlMonoThinWoff2 from './fonts/SuisseIntlMono-Thin.woff2'
-import SuisseIntlMonoThinWoff from './fonts/SuisseIntlMono-Thin.woff'
-import SuisseIntlMonoThinOtf from './fonts/SuisseIntlMono-Thin.otf'
-
-// Suisse Mono Bold
-import SuisseIntlMonoBoldEot from './fonts/SuisseIntlMono-Bold.eot'
-import SuisseIntlMonoBoldWoff2 from './fonts/SuisseIntlMono-Bold.woff2'
-import SuisseIntlMonoBoldWoff from './fonts/SuisseIntlMono-Bold.woff'
-import SuisseIntlMonoBoldOtf from './fonts/SuisseIntlMono-Bold.otf'
-
 // ___________________________________________________________________
 
 const Typography = css`
@@ -130,71 +100,6 @@ const Typography = css`
       url(${AeonikBlackOtf}) format('opentype'),
       url(${AeonikBlackEot}?#iefix) format('embedded-opentype');
     font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  /* Suisse Works Book */
-  @font-face {
-    font-family: 'SuisseWorks';
-    src: url(${SuisseWorksBookEot});
-    src: url(${SuisseWorksBookWoff2}) format('woff2'),
-      url(${SuisseWorksBookWoff}) format('woff'),
-      url(${SuisseWorksBookTtf}) format('truetype'),
-      url(${SuisseWorksBookEot}?#iefix) format('embedded-opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  /* Suisse Works Bold */
-  @font-face {
-    font-family: 'SuisseWorks';
-    src: url(${SuisseWorksBoldEot});
-    src: url(${SuisseWorksBoldWoff2}) format('woff2'),
-      url(${SuisseWorksBoldWoff}) format('woff'),
-      url(${SuisseWorksBoldTtf}) format('truetype'),
-      url(${SuisseWorksBoldEot}?#iefix) format('embedded-opentype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  /* Suisse Mono Thin */
-  @font-face {
-    font-family: 'SuisseMono';
-    src: url(${SuisseIntlMonoThinEot});
-    src: url(${SuisseIntlMonoThinWoff2}) format('woff2'),
-      url(${SuisseIntlMonoThinWoff}) format('woff'),
-      url(${SuisseIntlMonoThinOtf}) format('opentype'),
-      url(${SuisseIntlMonoThinEot}?#iefix) format('embedded-opentype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  /* Suisse Mono Regular */
-  @font-face {
-    font-family: 'SuisseMono';
-    src: url(${SuisseIntlMonoRegularEot});
-    src: url(${SuisseIntlMonoRegularWoff2}) format('woff2'),
-      url(${SuisseIntlMonoRegularWoff}) format('woff'),
-      url(${SuisseIntlMonoRegularOtf}) format('opentype'),
-      url(${SuisseIntlMonoRegularEot}?#iefix) format('embedded-opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  /* Suisse Mono Bold */
-  @font-face {
-    font-family: 'SuisseMono';
-    src: url(${SuisseIntlMonoBoldEot});
-    src: url(${SuisseIntlMonoBoldWoff2}) format('woff2'),
-      url(${SuisseIntlMonoBoldWoff}) format('woff'),
-      url(${SuisseIntlMonoBoldOtf}) format('opentype'),
-      url(${SuisseIntlMonoBoldEot}?#iefix) format('embedded-opentype');
-    font-weight: 500;
     font-style: normal;
     font-display: swap;
   }

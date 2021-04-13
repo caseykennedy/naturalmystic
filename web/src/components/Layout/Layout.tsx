@@ -30,7 +30,7 @@ const Layout: React.FC<Props> = ({ children }) => {
     <S.Wrapper>
       <Header />
       <S.Main>{children}</S.Main>
-      {/* <Footer /> */}
+      <Footer />
     </S.Wrapper>
   )
 }
