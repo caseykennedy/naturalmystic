@@ -17,27 +17,16 @@ const getYear = () => new Date().getFullYear()
 
 const Footer: React.FC = () => {
   return (
-    <S.Footer as="footer" pt={[4, 4]} pb={[6]} px={theme.gutter.axis}>
+    <S.Footer as="footer" bg="secondary" color="quinary" pt={[4, 4]} pb={[4]} px={theme.gutter.axis}>
       <Box className="footer-inner">
         {/* <Text as="a" className="text--xxl">donate</Text> */}
 
         <Flex>
-          <Box mr={4}>
-            &copy;{getYear()} &bull;{' '}
-            <Link
-              to="/"
-              className="logo-symbol"
-              aria-label="HNSF, back to home"
-            >
-              natural mystic
-            </Link>
-          </Box>
+          <Box mr={4}>&copy;{getYear()}</Box>
         </Flex>
 
         <Box as="nav">
-          <a href="mailto:fran@naturalmysticmassage.com">
-            contact
-          </a>
+          <a href="mailto:fran@naturalmysticmassage.com">contact</a>
         </Box>
       </Box>
     </S.Footer>

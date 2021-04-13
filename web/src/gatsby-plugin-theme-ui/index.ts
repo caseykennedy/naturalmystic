@@ -82,12 +82,14 @@ const theme: ThemeShape = {
   // ___________________________________________________________________
 
   colors: {
-    text: '#000000',
-    background: '#ffffff',
+    text: '#2b6e86',
+    background: '#f4ece6',
 
-    primary: '#5700ff',
-    secondary: '#1d2bf8',
-    tertiary: '#f2f2f2',
+    primary: '#1c4b55',
+    secondary: '#2b6e86',
+    tertiary: '#e1867f',
+    quaternary: '#e0988e',
+    quinary: '#eacdb4',
 
     black: '#000000',
     white: '#ffffff',
@@ -131,9 +133,8 @@ const theme: ThemeShape = {
   // ___________________________________________________________________
 
   fonts: {
-    body: `"Aeonik", Consolas, Liberation Mono, Menlo, Courier, monospace`,
-    heading: `"Aeonik", Consolas, Liberation Mono, Menlo, Courier, monospace`,
-    sans: `"Aeonik", Consolas, Liberation Mono, Menlo, Courier, monospace`,
+    body: `"SuisseMono", Consolas, Liberation Mono, Menlo, Courier, monospace`,
+    heading: `"YesevaOne", Consolas, Liberation Mono, Menlo, Courier, monospace`,
     display: `"SuisseWorks", Georgia, Times`,
     mono: `"SuisseMono", Consolas, Liberation Mono, Menlo, Courier, monospace`,
   },

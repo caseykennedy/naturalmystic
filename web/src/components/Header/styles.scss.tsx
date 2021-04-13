@@ -13,14 +13,15 @@ import { Box, Flex } from 'theme-ui'
 // ___________________________________________________________________
 
 export const Header = styled(Box)`
-  border-bottom: ${theme.border};
+  position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 99;
 `
 
 export const Logo = styled(Flex)`
   display: flex;
   align-items: center;
-  justify-content: center;
 
   .symbol {
     max-height: ${theme.space[5]};

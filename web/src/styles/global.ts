@@ -24,12 +24,12 @@ const GlobalStyles = createGlobalStyle`
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: ${theme.colors.black};
+    background: ${theme.colors.primary};
   }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: ${theme.colors.background};
+    background: ${theme.colors.tertiary};
     border-left: ${theme.border};
     border-color: ${theme.colors.black};
   }
@@ -40,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
   
   html,
   body {  
-    background: ${theme.colors.background};  
+    background: ${theme.colors.secondary};  
     
     border: 0;
     margin: 0;
